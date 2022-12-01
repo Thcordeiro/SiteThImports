@@ -1,0 +1,48 @@
+$(function() {
+	$('#sidebar ~ div').addClass('full-width');
+
+	$('.bt-show').click(function() {
+		$('#data-disponibilidade .group').toggleClass('hide');
+	});
+});
+
+function tratarEnter(event) {
+	event = event || window.event;
+	if (event.keyCode == 13) {
+		buscarEmpresas();
+	}
+}
+
+function callbackAutocomplete(event, item) {
+	var codigoEmpresa = item.data().value;
+	if (codigoEmpresa == -1) {
+		window.location.href = pageContext + "/pages/principal/nao-encontrei-a-empresa";
+	} else {
+		window.location.href = pageContext + "/pages/empresa/" + codigoEmpresa	+ "/";
+	}
+}
+
+function buscarEmpresas() {
+	var textoBusca = $("#autocomplete_empresa").val();
+
+	if ($("#autocomplete_empresa").val().length > 0) {
+		$("#autocomplete_empresa").puiautocompletecustom('search', textoBusca);
+	} else {
+		$("#autocomplete_empresa").focus();
+	}
+}
+
+function iniciarPaineis() {
+	$('#painel-face').show();
+	$('#painel-opcoes').hide();
+}
+
+function abrirOpcoes() {
+	$('#painel-face').hide();
+	$('#painel-opcoes').show();
+}
+
+function fecharOpcoes() {
+	iniciarPaineis();
+}
+

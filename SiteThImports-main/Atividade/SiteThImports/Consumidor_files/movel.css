@@ -1,0 +1,617 @@
+@media all and (min-width : 1200px){
+	.table-integracao-envio th:nth-of-type(1){	width: 216px; }
+	.table-integracao-envio th:nth-of-type(2){	width: 100px; }
+	.table-integracao-envio th:nth-of-type(3){	width: 100px; }
+	.table-integracao-envio th:nth-of-type(4){	width: 50px;  }
+	
+	.table-integracao-resposta th:nth-of-type(1){	width: 222px; }
+	.table-integracao-resposta th:nth-of-type(2){	width: 146px; }
+	.table-integracao-resposta th:nth-of-type(3){	width: 100px; }
+	
+	.table-metodos-acesso th:nth-of-type(1){	width: 226px; }
+	.table-metodos-acesso th:nth-of-type(2){	width: 170px; }
+	.table-metodos-acesso th:nth-of-type(3){	width: 266px; }
+	.table-metodos-acesso th:nth-of-type(4){	width: 186px; }
+	
+	
+	.table-metodos-acao th:nth-of-type(1){	width: 210px; }
+	.table-metodos-acao th:nth-of-type(2){	width: 266px; }
+	.table-metodos-acao th:nth-of-type(4){	width: 416px; }
+	
+	.table-integracao-mensagens th:nth-of-type(1){	width: 100px; }
+	.table-integracao-mensagens th:nth-of-type(3){	width: 600px; }
+	
+	.borda-info{
+		margin-top: 200px;
+	}
+}
+
+
+@media screen and (max-width: 1366px) and (min-width : 1024px){
+
+	select#problema , select#assunto{
+		font-size:12px !important;
+	}	
+
+}
+
+@media screen and (max-width: 1200px){
+    #btn-mais-detalhes{
+        display:none;
+    }
+    select#problema , select#assunto{
+	font-size:9px !important;
+    }
+}
+
+@media all and (max-width : 1023px){
+	.informacos_extras{
+		margin-top: 0px !important;
+	}
+}
+
+@media screen and (max-width: 1200px) and (min-width : 1010px) {
+	
+	.form-group label {
+		font-size: 0.7em;
+	}
+}
+
+@media screen and (max-width: 601px) and (min-width : 480px) {
+    .graf-pizza > div:not(.resumo_perfil){
+        width:50% !important;
+    }
+}
+	
+/* horizontal */
+
+@media (min-width : 765px) and (max-width: 1199px) {
+	.table-integracao-mensagens th:nth-of-type(1){	width: 100px; }
+	.table-integracao-mensagens th:nth-of-type(3){	width: 350px; }
+
+        .caminho {
+            float: left;
+            width: 100%;
+        }
+        div.rodape-link ul li a {
+            white-space: normal;
+        }
+	.menu > div, #menu-principal {
+		padding: 0px !important;
+	}
+	.logo img#logo {
+		max-width: 250px;
+	}
+	.passo.col-lg-4 {
+		float: left;
+		font-size: 0.8em;
+	}
+	.passo .circulo {
+		width: 57px;
+	}
+	#form-pesquisa {
+		margin: auto;
+	}
+	.menu-movel{
+		padding:0px;
+		font-size:0.89em;
+	}
+
+	.status-visao div {
+		float: left;
+		width: 33%;
+	}
+	
+	.col-md-400px{
+		width:400px;
+	}
+	.porcent_number {		
+		width: 100%;		
+	}
+	
+	.porcent_text {		
+		width: 100%;		
+	}
+	
+	.visao-usuario canvas{
+		width: 100% !important;
+		max-width: 505px;
+		height: auto !important;
+	}
+	.menu-lateral-lista {
+		width: 100%;
+	}
+	.menu{
+		float:right !important;
+	}
+	
+	.menu #menu-principal{
+		padding:0px !important;
+	}
+	.navbar-collapse.in{
+		overflow-y:visible !important;
+	}
+	
+	#menu_sel_procon, #menu_sel_fornecedor {
+		width: 150px;
+	}
+	.table-responsive table td {
+		white-space: inherit !important;
+	}
+	
+}
+
+
+/**********************************************************************/
+/* Resolucao para mobile *********************************************/
+/*********************************************************************/
+
+@media (max-width : 764px) and (min-width : 451px) {	
+	.table-integracao-mensagens th:nth-of-type(1){	width: 90px; }
+	.table-integracao-mensagens th:nth-of-type(3){	width: 330px; }
+
+	.logo-pg-inicial{
+		top: 15px;
+	}
+
+	.fluxo-index .dropdown{
+		width: auto !important;
+		float:left;
+		margin-top: -20px;
+		margin-bottom: 20px;	
+		margin-left: 0px;
+		padding-right: 20px;
+	}
+	.fluxo-index ul.lista {
+		margin-right: 15px
+	}
+	.fluxo-index ul li{
+		font-size: 1em !important;
+		padding-right: 10px;
+	}
+	.fluxo-index ul{
+		padding: 0 5%;
+	}
+	.fluxo-index ul li:after {
+		background: url(../imagens/fluxo-seta-small.png) no-repeat !important;
+		height: 50px;
+	}
+	.fluxo-index ul li p{
+		position: relative;
+		top: -10px;
+	}
+	#form-pesquisa .btn-pesquisa{
+		top:-46px;
+	}
+	#form-pesquisa .input-pesquisa{
+		height: 46px;
+	}
+        .imagemFundo {
+            padding: 0px 3px 20px 10px;
+        }
+	body {
+            font-size: 12px;
+	}
+	h4 {
+            font-size: 1.2em;
+	}
+	.img-responsive {
+		display: block;
+		height: auto;
+		max-width: 40%;
+	}
+	.rodape-governo img {
+		width: 33%;
+	}
+	.table-responsive table td {
+		white-space: inherit !important;
+	}
+	.titulo-portal {
+		margin: 0 auto;
+		padding: 10px 0;
+		position: relative;
+		width: 100%;
+		text-align: center;
+	}
+	.titulo-portal {
+		display: inline-table;
+	}
+	div.rodape-link ul li a {
+		font-size: 1em;
+		white-space: normal;
+	}
+	div#menu-principal ul.nav li a {
+		background-color: #1D2666 !important;
+		border-bottom: thin solid #5A63A3 !important;
+		color: #FFFFFF !important;
+		font-size: 1.2em !important;
+		height: auto !important;
+		line-height: 25px !important;
+		padding: 5px 10px !important;
+		width: auto !important;
+	}
+	
+	div#menu-principal ul.nav{
+		border-top: 5px solid #5A63A3;
+		margin-top: 0px;
+	}
+	
+	.menu {
+		background-color: transparent;
+		width: 100%;
+	}
+	
+	.menu > div {
+		padding: 0px;
+	}
+	
+	.navbar {
+		margin-bottom: 0;
+		position: relative;
+	}
+	.navbar-default .navbar-collapse,.navbar-default .navbar-form {
+		border: none;
+	}
+	
+	#menu-principal{
+		margin-left:0px;
+	}
+	
+	#menu-principal li a {
+		font-size:16px;
+	}
+	
+	.navbar-header button{
+		margin-right: 30px;
+		background-color: #E9E9E9;
+	}
+	
+	.menu-principal {
+		background-color: #1D2666;
+		min-height: 50px;
+		height: auto;
+	}
+	.form-padrao {
+		background-color: #E0E8F9;
+		background-color: #E0E8F9;
+		height: auto;
+	}
+	.conteudo-principal {
+		background-color: #FFFFFF;
+		padding-bottom: 10px;
+	}
+	.conteudo-principal {
+		min-height: 0px !important;
+	}
+	.menu-movel {
+		padding: 0;
+		margin: 0;
+	}	
+	#acessibilidade a {
+		color: #FFFFFF;
+		font-size: 0.75em;
+	}
+	
+	.caminho .passo:not(.passo-ativo){
+		display:none;
+	}
+	
+	.caminho .passo-ativo{
+		width:100%;
+	}
+	
+	.caminho .passo-ativo .texto{
+		font-size: 1.5em;
+	}
+	
+	.acesso{
+		width:100%;
+		z-index: 999;
+	}
+	
+	.acesso .input-sm{
+		width:44%;
+		margin-right:10px;
+		float:left;
+	}
+	
+	.conteudo-principal{
+		padding-bottom: 30px;
+	}
+	
+	.resumo_perfil{		
+		text-align:center;
+	}
+	
+	.resumo_perfil h4{
+		width:100%;
+	}
+	
+	#menu_sel_procon, #menu_sel_fornecedor {
+		width: 125px;
+	}
+	.titulo-menu{
+		font-size:1.5em !important;
+	}	
+        
+        div.rodape-link ul li a {
+            white-space: normal;
+        }
+	.colunaDestinatario{
+		width: 120px !important;
+	}
+}
+
+
+@media (max-width : 360px) /*320*/ {
+	.wrapper-xs-sm-menu-inicio {
+		padding: 0 0 20px;
+	}
+}
+	
+@media (max-width : 450px) /*320*/ {  
+	body{
+		font-size: 12px;
+	}
+	.logo-pg-inicial{
+		top: 10px;
+	}
+	.newTitle .tit-crimson{
+		font-size:35px;
+		letter-spacing: -1px;
+		padding-left: 20px;
+	}
+	.newTitle .tit-latoHair{
+		font-size:35px;
+	}
+	.newTitle .tit-latoLight{
+		font-size:15px;
+		margin-top: 0px;
+		margin-right: 0px;
+	}
+	
+	.img-list{
+		padding-left: 20px;
+	}
+	.img-list li img{
+		margin-right: 0px;
+		width: 35px !important;
+	}
+	.abas-integracao li a{
+		font-size: 12px;
+		padding: 8px;
+	}
+	.table-integracao-envio  th, .table-integracao-resposta th{
+		font-size: 8px;
+		word-wrap: normal;
+		word-break: normal;
+	}
+	.table-integracao-envio, .table-integracao-resposta {
+		font-size: 10px;
+		margin-left: -40px;
+		width: 300px;
+	}
+	.conteudoEstatico .accordion-group{	padding: 0; }
+	.conteudoEstatico .accordion-group .accordion-heading a{ font-size: 14px; }
+	.conteudoEstatico{
+		word-break: break-word;
+		word-wrap: break-word;
+	}
+	.table-integracao-mensagens th{ font-size: 10px }
+	.table-integracao-mensagens th:nth-of-type(1){	width: 80px; }
+	.table-integracao-mensagens th:nth-of-type(3){	width: 110px; }
+	
+	.fluxo-index .dropdown{
+		width: auto !important;
+		float:left;
+		margin-top: -20px;
+		margin-bottom: 20px;	
+		margin-left: -15px;
+		font-size: 12px;
+		padding: 0 10px;
+	}
+	#form-pesquisa .btn-pesquisa{
+		left: 90px;
+	}
+	#form-pesquisa .input-pesquisa::-webkit-input-placeholder{
+		font-size: 14px;
+	}
+	.fluxo-index ul li{
+		font-size: 1em !important;
+	}
+	.fluxo-index ul{
+		padding-left: 0px;
+		position: relative;
+	}
+	.fluxo-index ul.lista {
+		margin-right: 15px
+	}
+	.fluxo-index ul li:after {
+		background: url(../imagens/fluxo-seta-small.png) no-repeat !important;
+		height: 50px;
+	}
+	.fluxo-index ul li p{
+		position: relative;
+		top: -10px;
+		width: 90px;
+	}
+	.fluxo-index ul li.first-child:after{
+		margin-left: 0px;
+	}
+	.table-responsive.panel {
+		width: 85% !important;
+	}
+	.table-responsive table td{
+		white-space: inherit !important;
+	}
+	
+	.table-responsive.panel h4:first-child,
+	.fundo-branco .status-visao{
+		text-align:center;
+	}
+	
+	.panel .table-responsive table th{
+		width:108px;
+	}
+	
+	.panel .table-responsive table td{
+		overflow:hidden;
+	}
+	
+	.modal-body table td:nth-child(odd){
+		display:none;
+	}
+	
+	.modal-body table td:nth-child(2){
+		width:40% !important;
+	}
+	
+	.modal-body table td:nth-child(4){
+		width:60% !important;
+	}
+	
+	
+	.titulo-portal {
+		margin: 0 auto;
+		padding: 10px 0;
+		position: relative;
+		width: 100%;
+		text-align: center;
+	}
+	.titulo-portal {
+		display: inline-table;
+	}
+	.menu{
+		width: 100%;
+		clear: both;
+	}
+	.menu-topo{
+		/* margin-top: 80px; */
+	}
+	#menu-principal , .menu-movel{
+		padding:0px;
+	}
+	.navbar-header button{
+		margin: 1px 15px 0 0px;
+		background-color: #E9E9E9;
+	}	
+	.menu-principal {
+		height: 45px;
+	}
+	.navbar-header button.navbar-toggle {
+		margin: 5px 15px 10px;
+	}
+	
+	.caminho .passo:not(.passo-ativo){
+		display:none;
+	}
+	
+	.caminho .passo-ativo{
+		width:100%;
+	}
+	
+	.conteudo-principal {		
+		min-height: 150px;
+	}
+	.acesso{
+		width:100%;
+		z-index: 999;
+	}
+	
+	.acesso .input-sm{
+		width:40%;
+		margin-right:10px;
+		float:left;
+	}
+	div#menu-principal ul.nav li a {
+		background-color: #1D2666 !important;
+		border-bottom: thin solid #5A63A3 !important;
+		color: #FFFFFF !important;
+		font-size: 1.2em !important;
+		height: auto !important;
+		line-height: 25px !important;
+		padding: 5px 10px !important;
+		width: auto !important;
+	}		
+	.nav > li {
+		z-index:999;
+	}
+	.navbar-collapse.in{
+		overflow-y:visible !important;
+	}
+
+	.titulo-menu , .menu-lateral-lista , .menu-lateral > div ~ div , .menu-lateral > div{
+		width:100%;
+	}
+	#form-pesquisa {
+		margin: 0px;
+		top: 0px;
+		min-height: 120px;	
+		height: 120px;	
+	}
+	.conteudo-principal {
+		padding-bottom: 30px;
+	}
+	.menu-lateral-lista li a{
+		text-align:center;
+	}
+	#tbconsulta tr td:not(:nth-child(4n+1)) , 
+        #tbconsulta tr th:not(:nth-child(4n+1)) {
+		display: none;
+	
+	}
+	#tbconsulta tr th{
+		width:50% !important;
+	}
+	
+	.dataTables_length {
+		width: 100% !important;
+	}
+	
+	.btn-pesquisa {
+		top: -46px !important;
+		left: -3px !important;
+   		height: 46px;
+	}
+	
+	.dataTables_info {
+		width: 100% !important;
+		float: left;
+		margin: 10px;
+	}
+	
+	.menu-lateral-lista{
+		margin-bottom:20px;
+	}
+	
+	#consumidor-acoes {
+		margin: 10px 0;
+	}
+        .imagemFundo {
+            padding: 0px 3px 20px 10px;
+        }
+        div.rodape-link ul li a {
+            white-space: normal;
+        }        
+        .menu-suspenso {
+            min-width: 320px;
+        }        
+        .abas-perfil li{
+            display:none;
+        }
+        #btnRegistrarReclamacao{
+            margin-bottom:10px;
+        } 
+	#uploaded-files{
+		font-size: 10px !important;
+	}
+	
+	.icone-xs-sm-menu-inicio {
+		width: 30px;
+	}
+	
+	.wrapper-xs-sm-menu-inicio {
+		text-align: center;
+	}
+	       
+}
